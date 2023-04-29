@@ -99,6 +99,15 @@ a{
     font-weight: bold;
 }
 
+.chat-img{
+    display: inline;
+    padding-right: 15px;
+}
+.chat-icon{
+    width: 15px;
+    height: 15px;
+}
+
 .links{
     margin-bottom: 100px;
 }
