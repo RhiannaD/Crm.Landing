@@ -1,0 +1,313 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.boxed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 auto;
+    width: 400px;
+    gap: 200px;
+   
+    
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.solutions{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    margin: 50px 0 50px 0;
+}
+
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 21px;
+    width:100px;
+    height: 100px;
+    border-radius: 51%;
+    box-shadow: 0 0 2px #140e0e;
+    padding: 2.3em 2.5em 1.5em 1.1em;
+    background-color: rgb(232, 241, 250);
+  
+  }
+
+  .email_img{
+    width:65px;
+    height: 74px;
+    margin: -25px 10px 2px -3px;
+  }
+  .email_info{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 -6px 20px;
+    white-space: nowrap;
+    text-align: left;
+    height: 80px;
+    padding: 10px;
+  }
+
+  .email_p{
+    display: flex;
+    flex-direction: column;
+    margin-left:-90px;
+    text-align: center;
+    font-size:9px;
+    height:80px;
+    width:250px;
+    padding:2px 2px 2px 2px;
+
+  }
+
+  .end-btn {
+    margin: 7px 0 0 -50px;
+    box-shadow: 0 6px 6px rgba(241, 238, 238, 0.6);
+    background-color: transparent;
+    width: 140px;
+    height: 6vw;
+    font-size: 11px;
+    font-weight: 5px;
+    color: black;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    padding: 3px;
+  }
+  
+  .arrow1{
+    display: inline-block;
+    inline-size: 20%;
+    font-size: 11px;
+    margin: 30px 0 -30px 75px;
+  }
+.task{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 21px;
+    width:100px;
+    height: 100px;
+    border-radius: 51%;
+    box-shadow: 0 0 2px #140e0e;
+    padding: 2.4em 2em 2.5em 1.5em;
+    background-color: rgb(232, 241, 250);
+
+}
+
+.task_img{
+  width:50px;
+  height: 70px;
+  margin: -31px 10px 7px -10px;
+}
+
+.task_m{
+    display: flex;
+    justify-content: center;
+    margin: 7px 2px 0 -2px;
+    white-space: nowrap;
+    text-align: left;
+    height: 80px;
+    padding: 10px;
+
+}
+
+.task_p{
+    display: flex;
+    flex-direction: column;
+    margin: -3px 0 0 -100px;
+    text-align: center;
+    font-size:9px;
+    height:30px;
+    width:250px;
+
+
+}
+
+.end-btn2{
+    margin: 3px 80px -20px -60px;
+    box-shadow: 0 6px 6px rgba(241, 238, 238, 0.6);
+    background-color: transparent;
+    width: 140px;
+    height: 9vw;
+    font-size: 11px;
+    font-weight: 5px;
+    color: black;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.arrow2{
+ display: inline-block;
+ inline-size: 18;
+  font-size: 11px;
+  margin: 33px -47px -26px 65px;
+}
+
+.analytics{
+    display: flex;
+    text-align: center;
+    font-size: 23px;
+    width:100px;
+    height: 100px;
+    border-radius: 51%;
+    box-shadow: 0 0 2px #140e0e;
+    padding: 2em 3em 2em .8em;
+    background-color: rgb(232, 241, 250);
+
+} 
+.analytics_img{
+  width:150px;
+  height:60px;
+  margin: -25px 0 0 0;
+
+}
+.analytics_h{
+    display: flex;
+    justify-content: center;
+    margin: 50px 2px 0 -80px;
+    white-space: nowrap;
+    text-align: left;
+    height: 8px;
+    padding-top: 7px;
+
+}
+
+.analytics_p{ 
+  display: flex;
+  flex-direction: column;
+  margin: 101px 80px 3px -140px;
+  text-align: center;
+  font-size:9px;
+  height:10px;
+  width:100px;
+  padding:3px 6px 2px 7px;
+  white-space: nowrap;
+}
+
+.analytics_p1{ 
+  display: flex;
+  flex-direction: column;
+  margin: 115px 8px 3px -175px;
+  text-align: center;
+  font-size:9px;
+  height:10px;
+  white-space: nowrap;
+  width:100px;
+  padding:3px 6px 1px 6px;
+}
+
+.end-btn3{
+  margin: 160px 95px 0 -110px;
+  box-shadow: 0 6px 6px rgba(241, 238, 238, 0.6);
+  background-color: transparent;
+  width: 150px;
+  height: 2.2vw;
+  font-size: 11px;
+  font-weight: 5px;
+  white-space: nowrap;
+  color: black;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  padding: 1px 45px 1px 43px;
+
+}
+
+.arrow3{
+   display: inline-block;
+   inline-size: 20%;
+    font-size: 11px;
+    margin: 165px -28px 0 50px;
+  }
+
+
+.calendar{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    width:100px;
+    height: 100px;
+    border-radius: 51%;
+    box-shadow: 0 0 2px #140e0e;
+    padding: 3.1em 3em 2em 2.2em;
+    background-color: rgb(232, 241, 250);
+
+}
+
+.calendar_img{
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height:80px;
+  margin: -40px 6px 1px -19px;
+  padding: 10px;
+  
+}
+
+.calendar_h{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 8px -130px;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 21px;
+    padding:3px;
+  }
+
+
+  .calendar_p{
+  display: flex;
+  flex-direction: row;
+  margin: 105px -60px 1px -170px;
+  white-space: nowrap;
+  text-align: center;
+  font-size:9px;
+  padding:2px 1px 1px 1px;
+  height: 20px;
+
+
+  }
+
+  .calendar_p1{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 90px 3px -135px;
+    text-align: center;
+    font-size:9px;
+    height:-6px;
+    white-space: nowrap;
+  }
+
+  .end-btn4{
+    margin: 160px -85px 0 -120px;
+    box-shadow: 0 6px 6px rgba(241, 238, 238, 0.6);
+    background-color: transparent;
+    width: 150px;
+    height: 2vw;
+    font-size: 11px;
+    font-weight: 5px;
+    color: black;
+    border-radius: 0.5vw;
+    cursor: pointer;
+   padding:1px;
+}
+
+.arrow4{
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  margin: 175px -19px 0 -150px;
+}
